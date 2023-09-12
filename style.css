@@ -1,0 +1,114 @@
+
+#store {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: rgb(233, 233, 233);
+      padding: 100px;
+      gap: 20px;
+}
+
+.item {
+      background-color: rgb(1, 133, 186);
+      padding: 20px;
+      box-shadow:  5px 5px 10px #2c05f06b;
+      border-radius: 20px 10px 20px 10px;
+      margin: 2%;
+}
+
+.head {
+      font-size: xx-large;
+      color: #000000;
+      background-color: #faf6d3a2;
+      padding: 5px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.heading {
+      font-size: x-large;
+      color: #192a2b;
+      background-color: #cccab7bb;
+      padding: 5px;
+      border-radius: 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-weight: 700;
+      font-family: 'Times New Roman', Times, serif;
+}
+h3{
+      font-size: x-large;
+      font-weight: 800;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.cart {
+      padding: 10px 20px 10px 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: #ed1f1f;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+
+}
+.order {
+      padding: 10px 20px 10px 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: #309c09;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 20px 20px 20px 10px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.footer {
+      position: relative;
+      margin-top: 10px;
+      padding: 10px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(9, 196, 174);
+      color: white;
+      text-align: center;
+      font-family: 'Black Ops One';
+      font-size: 25px;
+      font-family: 'Black Ops One'
+}
+
+a {
+      color: #fdfdfd;
+      text-decoration: none;
+}
+
+a:hover {
+      color: #36fb05;
+      text-decoration: none;
+}
+
+.cart:hover {
+      transition: 1s;
+      padding: 10px 20px;
+      transform: translateY(-0px);
+      background-color: #ea8f65;
+      color: #21056d;
+      border: solid 2px #fc0505;
+}
+
+.order:hover {
+      transition: 1s;
+      padding: 10px 20px;
+      transform: translateY(-0px);
+      background-color: #80ea65;
+      color: #154b07;
+      border: solid 2px #91fc05;
+}
